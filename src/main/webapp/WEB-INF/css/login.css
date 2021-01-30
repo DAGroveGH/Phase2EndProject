@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-image:url("../../../resources/static/images/business-meeting-background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+
+body {
+    background-color: rgba(0, 191, 255, .8);
+    height:100%;
+    width:100%;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #768489;
+    height: 60%;
+    width: 30%;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0;
+    display: grid;
+    grid-template:
+            "head head head" 15%
+            "form form form" 40%
+            "form form form" 40%;
+}
+
+#container > h1 {
+    color: antiquewhite;
+    font-family: Consolas;
+    grid-area: head;
+}
+
+form {
+    grid-area: form;
+}
+
+
+
+
+
