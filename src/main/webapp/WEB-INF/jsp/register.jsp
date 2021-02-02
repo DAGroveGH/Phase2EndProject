@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Register</title>
-        <link href="../../../resources/static/stylesheets/register.css" rel="stylesheet">
+        <link href="../css/register.css" rel="stylesheet">
     </head>
 
     <body>

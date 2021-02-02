@@ -4,7 +4,7 @@
 }
 
 html {
-    background-image:url("../images/business-meeting-background.jpg");
+    background-image:url("/images/business-meeting-background.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: rgba(0, 191, 255, .8);
+    background-color: rgba(0, 191, 255, .2);
     height:100%;
     width:100%;
     margin:0;

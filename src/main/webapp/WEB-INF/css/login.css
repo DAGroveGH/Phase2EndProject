@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+    font-family: Consolas;
 }
 
 html {
@@ -37,15 +38,10 @@ body {
 
 #container > h1 {
     color: antiquewhite;
-    font-family: Consolas;
+
     grid-area: head;
 }
 
 form {
     grid-area: form;
 }
-
-
-
-
-

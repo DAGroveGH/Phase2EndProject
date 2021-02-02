@@ -5,16 +5,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Login</title>
-        <link href="../../../resources/static/stylesheets/login.css" rel="stylesheet">
+        <link href="../css/login.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
         <div id="container">
+            <h1>Login</h1>
             <form action='' method="post">
-                <h1>Login</h1>
                 <input type="text" name="username" id="username" placeholder="Username">
                 <br/>
-                <input type="password" name="password" id="password" placehholder="password">
+                <input type="password" name="password" id="password" >
                 <br/>
                 <input type="submit" id="submit" value="Login">
             </form>
